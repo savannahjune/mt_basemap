@@ -38,7 +38,8 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "mtstreamarea"
+      "name": "mtstreamarea",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -59,7 +60,8 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "mtflowlines"
+      "name": "mtflowlines",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -85,6 +87,24 @@
     {
       "geometry": "polygon",
       "extent": [
+        59.21864521622663,
+        -19.35671071579023,
+        160.91017918671173,
+        85.051
+      ],
+      "id": "mtmerge",
+      "class": "",
+      "Datasource": {
+        "file": "layers/mtmerged/mtmerge.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "mtmerge"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -115.6034389745106,
         44.26864630227483,
         -103.63867440121304,
@@ -101,7 +121,8 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "mtlakes"
+      "name": "mtlakes",
+      "status": "off"
     },
     {
       "geometry": "linestring",
